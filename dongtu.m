@@ -77,6 +77,7 @@ movie(m);
 
 function [X] = Maxsis(NUM)
     %得到X、Y、Z坐标轴的数值最大值
+    
     temp = abs(NUM);
     X = max(temp);
 end
